@@ -127,6 +127,7 @@ grep -rin -B2 -A2 $EVENTTAG $MAGEAPPDIR > $OUTFILE
 COUNT=$(cat $OUTFILE | grep -o $EVENTTAG | wc -l)
 
 echo "COUNT: $COUNT"
+echo -e "--\nCOUNT:$COUNT" >> $OUTFILE
 
 # Exit success
 exit 0
