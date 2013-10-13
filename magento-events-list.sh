@@ -33,7 +33,7 @@ function usage() {
   cat << EOF
 Usage: $0 OPTIONS
 
-Generates list of events available for observing from Magento source code, and saves result to file
+Generates list of events from Magento source code, and saves result to file
 
 OPTIONS:
 -h Show this message
